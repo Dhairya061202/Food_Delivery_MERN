@@ -1,0 +1,108 @@
+#menu {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Light grey background for a clean look */
+    padding: 4rem;
+}
+
+#menu h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    color: #ff5722; /* Vibrant orange for the heading */
+}
+
+#menu div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* menucart.jsx css */
+
+.menu-cart {
+    background-color: #ffffff; /* White background for menu cart */
+    width: 30%;
+    margin: 1rem; /* Reduced margin for top and bottom */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.menu-cart div {
+    border-radius: 20px 20px 0 0;
+    background-color: #ff5722; /* Vibrant orange for the top section */
+    display: flex;
+    align-items: center;
+    padding: 1rem; /* Reduced padding for top section */
+    color: white;
+    height: 3rem; /* Adjusted height */
+}
+
+main {
+    padding: 1rem; /* Reduced padding for main section */
+    display: flex;
+    flex-direction: column;
+}
+
+main img {
+    height: 15rem;
+    width: 100%;
+    object-fit: contain;
+}
+
+main h5 {
+    font-size: 1.8rem;
+    color: #333; /* Dark grey text for readability */
+}
+
+main p {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    color: #4caf50; /* Fresh green for the text */
+}
+
+main button {
+    background-color: #ff5722; /* Vibrant orange for the button */
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+main button:hover {
+    background-color: #e64a19; /* Darker shade of orange on hover */
+}
+
+@media screen and (max-width: 1024px) {
+    .menu-cart {
+        width: 60%;
+        margin-right: 5px;
+    }
+    main button {
+        padding: 0.5rem 1rem;
+        width: 70%;
+    }
+    main p {
+        padding: 0.5rem 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #menu div {
+        flex-direction: column;
+    }
+    .menu-cart {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    main button {
+        padding: 1rem 2rem;
+        width: 100%;
+    }
+}

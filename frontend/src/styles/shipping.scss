@@ -1,0 +1,82 @@
+.shipping {
+  background-color: #f5f5f5; // Light grey background for a clean look
+  width: 100%;
+  height: 110vh;
+
+  > main {
+    height: 100%;
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    margin-bottom: 20px;
+
+    > h1 {
+      text-transform: uppercase;
+      text-align: center;
+      margin: 2rem;
+      font: 100 3rem "Roboto";
+      color: #ff5722; // Vibrant orange for the heading
+    }
+
+    > form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      > div {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        > label {
+          white-space: nowrap;
+        }
+        > input,
+        > select {
+          width: 450px;
+          padding: 0.5rem 1rem;
+          outline: none;
+          border: 1px solid rgba(0, 0, 0, 0.172);
+          border-radius: 5px;
+          margin: 1rem;
+          font-size: 1rem;
+        }
+      }
+      > a {
+        background-color: #ff5722; // Vibrant orange for the button
+        color: white;
+        outline: none;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        margin: 1rem;
+        text-align: center;
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease; // Smooth transition effect
+
+        &:hover {
+          background-color: #e64a19; // Darker shade of orange on hover
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .shipping > main > form {
+    > div {
+      width: 100%;
+      > input,
+      > select {
+        width: 100%;
+      }
+    }
+
+    > a {
+      width: 100%;
+    }
+  }
+}

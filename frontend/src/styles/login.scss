@@ -1,0 +1,28 @@
+.login {
+  height: 80vh; // Adjust the height
+  width: 100%; 
+  background-color: black; // Background color
+  display: flex;
+  justify-content: center; // Center items horizontally
+  align-items: center; // Center items vertically
+
+  > button {
+    background-color: white; // Button background
+    color: red; // Button text color
+    border: none; // No border
+    border-radius: 10px; // Rounded corners
+    padding: 1rem 2rem; // Padding inside the button
+    font-size: 1.1rem; // Button font size
+    display: flex; // Flex layout for button
+    align-items: center; // Center content in button
+    cursor: pointer; // Pointer cursor on hover
+
+    svg {
+      margin-left: 1rem; // Space between text and icon
+    }
+
+    &:hover {
+      color: brown; // Text color on hover
+    }
+  }
+}

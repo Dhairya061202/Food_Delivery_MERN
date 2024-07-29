@@ -1,0 +1,129 @@
+[
+    {
+        "itemNum": 1,
+        "foodSrc": "/assets/food_1.jpeg",
+        "price": 100,
+        "title": "cheeseBurger",
+        "category":"burger"
+    },
+    {
+        "itemNum": 2,
+        "foodSrc": "/assets/food_2.jpeg",
+        "price": 130,
+        "title": "vegCheeseBurger",
+        "category":"burger"
+    },
+    {
+        "itemNum": 3,
+        "foodSrc": "/assets/food_3.jpeg",
+        "price": 200,
+        "title": "maharajaCheeseBurger",
+        "category":"burger"
+    },
+    {
+        "itemNum": 4,
+        "foodSrc": "/assets/food_4.jpeg",
+        "price": 160,
+        "title": "macVegBurger",
+        "category":"burger"
+    },
+    {
+        "itemNum": 5,
+        "foodSrc": "/assets/food_13.png",
+        "price": 220,
+        "title": "burgerWithFries",
+        "category":"burger"
+    },
+    {
+        "itemNum": 18,
+        "foodSrc": "/assets/food_1.jpeg",
+        "price": 100,
+        "title": "cheeseBurger",
+        "category":"burger"
+    },
+    {
+        "itemNum": 6,
+        "foodSrc": "/assets/food_10.jpeg",
+        "price": 250,
+        "title": "MargheritaPizza",
+        "category":"pizza"
+    },
+    {
+        "itemNum": 7,
+        "foodSrc": "/assets/food_11.jpeg",
+        "price": 290,
+        "title": "VeggiePizza",
+        "category":"pizza"
+    },
+    {
+        "itemNum": 8,
+        "foodSrc": "/assets/food_12.jpeg",
+        "price": 320,
+        "title": "SupremePizza",
+        "category":"pizza"
+    },
+    {
+        "itemNum": 9,
+        "foodSrc": "/assets/food_13.jpeg",
+        "price": 400,
+        "title": "BBQChickenPizza",
+        "category":"pizza"
+    },
+    {
+        "itemNum": 10,
+        "foodSrc": "/assets/food_14.jpeg",
+        "price": 380,
+        "title": "PepperoniPizza",
+        "category":"pizza"
+    },
+    {
+        "itemNum": 17,
+        "foodSrc": "/assets/food_10.jpeg",
+        "price": 250,
+        "title": "MargheritaPizza",
+        "category":"pizza"
+    },
+    {
+        "itemNum": 11,
+        "foodSrc": "/assets/food_32.jpeg",
+        "price": 150,
+        "title": "Manchurian",
+        "category":"chinese"
+    },
+    {
+        "itemNum": 12,
+        "foodSrc": "/assets/food_29.png",
+        "price": 130,
+        "title": "HakkaNoodles",
+        "category":"chinese"
+    },
+    {
+        "itemNum": 13,
+        "foodSrc": "/assets/food_33.jpeg",
+        "price": 200,
+        "title": "SpringRolls",
+        "category":"chinese"
+    },
+    {
+        "itemNum": 14,
+        "foodSrc": "/assets/food_30.png",
+        "price": 195,
+        "title": "Chowmein",
+        "category":"chinese"
+    },
+    {
+        "itemNum": 15,
+        "foodSrc": "/assets/food_31.jpeg",
+        "price": 220,
+        "title": "FriedRice",
+        "category":"chinese"
+    },
+    {
+        "itemNum": 16,
+        "foodSrc": "/assets/food_32.jpeg",
+        "price": 150,
+        "title": "Manchurian",
+        "category":"chinese"
+    }
+    
+]

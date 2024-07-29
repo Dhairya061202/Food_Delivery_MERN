@@ -1,0 +1,106 @@
+.cart {
+  background-color: #f5f5f5; /* Light grey background for a clean look */
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto; /* Add scrollbar when content overflows vertically */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.cart > main {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  height: 100%; /* Maintain full height of parent container */
+  overflow-y: auto; /* Ensure main section can scroll independently */
+}
+
+main > article {
+  padding: 2rem;
+}
+
+article > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+article > a {
+  background-color: #ff5722; /* Vibrant orange for the button */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1rem;
+  float: right;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+article > a:hover {
+  background-color: #e64a19; /* Darker shade of orange on hover */
+}
+
+.cartItem {
+  background-color: #ffffff; /* White background for cart items */
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.cartItem > div {
+  display: flex;
+  align-items: center;
+}
+
+.cartItem h4 {
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: #333; /* Dark grey text for readability */
+}
+
+.cartItem img {
+  height: 50px;
+}
+
+.cartItem input {
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc; /* Light grey border */
+  margin: 0.25rem;
+  outline: none;
+  border-radius: 5px;
+  color: #ff5722; /* Vibrant orange text */
+}
+
+.cartItem input::-webkit-outer-spin-button,
+.cartItem input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0%;
+}
+
+.cartItem button {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem;
+  background-color: #4caf50; /* Fresh green button */
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.cartItem button:hover {
+  background-color: #388e3c; /* Darker shade of green on hover */
+}
+
+@media screen and (max-width: 600px) {
+  .cart > main > article > a {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "itemNum": 6,
+        "foodSrc": "/assets/food_10.jpeg",
+        "price": 250,
+        "title": "MargheritaPizza",
+        "category":"pizza"
+    },
+    {
+        "itemNum": 1,
+        "foodSrc": "/assets/food_1.jpeg",
+        "price": 100,
+        "title": "cheeseBurger",
+        "category":"burger"
+    },
+    {
+        "itemNum": 13,
+        "foodSrc": "/assets/food_33.jpeg",
+        "price": 200,
+        "title": "SpringRolls",
+        "category":"chinese"
+    },
+    {
+        "itemNum": 10,
+        "foodSrc": "/assets/food_14.jpeg",
+        "price": 380,
+        "title": "PepperoniPizza",
+        "category":"pizza"
+    }
+
+    
+    
+]

@@ -1,0 +1,66 @@
+nav {
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px #000803;
+    /* background-color: #bacbcf; */
+    
+    
+}
+nav > div {
+    display: flex;
+    align-items: center;
+}
+.logo svg{
+    color: #0e361a;
+    font-size: 3rem;
+}
+.nav-links a{
+    margin: 0 1.5rem;
+    color: #0e361a;
+    transition: color 0.2s;
+    
+}
+.nav-links a svg{
+    font-size: 1.3rem;
+}
+.nav-links a:hover{
+    color: red;
+}
+
+
+@media screen and (max-width:1024px) {
+    .nav-links a{
+        margin: 0 1rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .nav-links a{
+        margin: 0 0.8rem;
+    }
+}
+@media screen and (max-width:600px) {
+    nav{
+        padding: 1rem;
+    }
+    .nav-links a{
+        margin: 0 0.5rem;
+    }
+}
+@media screen and (max-width:450px) {
+    nav{
+        padding: 1rem;
+    }
+    .logo svg{
+        font-size: 2.5rem;
+    }
+    .nav-links a{
+        margin: 0 0.3rem;
+        font-size: 0.8rem;
+    }
+    .nav-links a svg{
+        font-size: 1rem;
+    }
+}
